@@ -16,7 +16,7 @@ import org.springframework.web.client.RestTemplate;
 public class ShowAllTemplates {
 
   // GET https://api.creatomate.com/v1/templates  Returns a list of templates in your project
-  public  static ResponseEntity<String> getAllTemplates() {
+  public static ResponseEntity<String> getAllTemplates() {
 
     HttpHeaders headers = new HttpHeaders();
     RestTemplate restTemplate = new RestTemplate();
@@ -36,7 +36,7 @@ public class ShowAllTemplates {
 
   public static void main(String[] args) {
     String response = getAllTemplates().getBody();
-    System.out.println("List of Templates in your project--->"+response);
+    System.out.println("List of Templates in your project--->" + response);
 
   }
 }
