@@ -40,7 +40,7 @@ public class CreateVideoWithNewColorAndTextUsingTemplateId {
         + "    \"0f195ad2-6510-46d1-b909-057acc4ddfcc\": \"The AT Product!\",\n"
         + "    \"60fbeb59-227e-47ad-8076-a8c6cb9f50e1\": \"$111.11\",\n"
         + "    \"16ded007-2f0b-42be-ba53-4285d8c24404\": \"https://cdn.shopify.com/s/files/1/0419/1525/products/1024x1024-Women-Crown-Black-012023-2.jpg?v=1675110361\",\n"
-        + "    \"fc38b5d7-6745-4e05-9eb7-40c7b9ea273b\": \"https://www.scandit.com/wp-content/uploads/2019/08/Symbology-QR-code.svg\"\n"
+        + "    \"QR\": \"https://www.scandit.com/wp-content/uploads/2019/08/Symbology-QR-code.svg\"\n"
         + "  }"
         + "  }";
 
