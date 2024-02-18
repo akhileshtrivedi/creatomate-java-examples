@@ -34,6 +34,7 @@ Get your free API key at Creatomate.com and start creating video-powered applica
 ### Show a list of templates in your project (GET https://api.creatomate.com/v1/templates)
 ### Show the template source associated with the provided ID (GET https://api.creatomate.com/v1/templates/ID)
 
+![alt text](creatomate-examples.png?raw=true)
 
 # Acknowledgments
 
