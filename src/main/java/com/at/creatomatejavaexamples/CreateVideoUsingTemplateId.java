@@ -17,9 +17,12 @@ public class CreateVideoUsingTemplateId {
   public static String templateRender() {
 
     RestTemplate restTemplate = new RestTemplate();
-
+    // webhook_url: https://api.recut.tv/api/v1/tracks
+    //metadata: id=videoId
     String requestJson = "{\n"
-        + "  \"template_id\": \"1f66e8b5-4cc7-4b9b-94a5-842c4081ecaa\",\n"
+        + "  \"webhook_url\": \"https://api.recut.tv/api/v1/webhooks/creatomate-status-update?v=157\",\n"
+        + "  \"metadata\": \"id=157\",\n"
+        + "  \"template_id\": \"1401c072-e7f4-428d-9515-c58ef63b80f9\",\n"
         + "  \"modifications\": {\n"
         + "    \"Photo 1\": \"https://cdn.creatomate.com/files/assets/353ba980-9f13-4613-a8c5-f3aca0c41324\",\n"
         + "    \"Photo 2\": \"https://cdn.creatomate.com/files/assets/f1cedfdd-eb93-4bda-a2f0-9171e3c71c41\",\n"
